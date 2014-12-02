@@ -12,7 +12,7 @@ if __name__ == '__main__':
         parser.print_help()
     else:
         printer = EpsonPrinter(options.id_vendor, options.id_product)
-        printer.print_text("Hello, how's it going?")
+        printer.print_text("Helldsfasdo, how's it going?")
         printer.linefeed()
         printer.print_text("Part of this")
         printer.bold_on()
