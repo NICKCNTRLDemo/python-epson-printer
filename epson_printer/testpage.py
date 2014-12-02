@@ -13,7 +13,6 @@ if __name__ == '__main__':
     else:
         printer = EpsonPrinter(options.id_vendor, options.id_product)
         printer.center()
-        printer.print_image("nickcontrol_logo.png")
         printer.print_text("NICKCONTROL")
         printer.linefeed()
         printer.set_text_size(1, 1)
